@@ -25,5 +25,5 @@ type SiteMonitor struct {
 	TaskName    string `json:"TaskName" xml:"TaskName"`
 	Interval    string `json:"Interval" xml:"Interval"`
 	UpdateTime  string `json:"UpdateTime" xml:"UpdateTime"`
-	OptionsJson string `json:"OptionsJson" xml:"OptionsJson"`
+	OptionsJson map[string]interface{} `json:"OptionsJson" xml:"OptionsJson"`
 }
